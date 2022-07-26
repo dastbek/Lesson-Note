@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Stats Basics</title>
+<style type="text/css">
+    body {color: #484747; font-size: 12pt; font-family: "Times New Roman", sans-serif; }
+li { list-style: none;  margin: 0; }
+p { margin: 0; }
+
+span.l { color: red; font-weight: bold; }
+
+a.mapnode:link,
+a.mapnode:visited,
+a.mapnode:active,
+a.mapnode:hover {
+    text-decoration: none; color: black;
+}
+a.mapnode:hover { background: #eeeee0; }
+
+</style>
+</head>
+<body style="background-color:#f9f9f8;">
+<div style="background-color:#484747;">
+<p><span style="color: #ffffff; font-size: 18pt; font-weight: bold; ">Stats Basics</span></div>
+<ul>
+<li><div style="background-color:#f0f0f0;padding: 0.5em;">
+<div style="background-color:#d08770;">
+<span style="color: #eceff4; font-size: 16pt; ">Tests</span></div>
+<ul>
+<li><div style="background-color:#ebcb8b;">
+<span style="color: #3b4252; font-size: 14pt; ">Chi-squared test</span></div>
+<ul>
+<li><div style="background-color:#a3be8c;">
+<span style="color: #2e3440; ">Purpose</span></div>
+</li></ul>
+</li></ul>
+</div>
+</li><li><div style="background-color:#d08770;">
+<span style="color: #eceff4; font-size: 16pt; ">Odds</span></div>
+<ul>
+<li><div style="background-color:#ebcb8b;">
+<span style="color: #3b4252; font-size: 14pt; "><img src='data:image/png;base64,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'></span></div>
+</li><li><div style="background-color:#ebcb8b;">
+<span style="color: #3b4252; font-size: 14pt; ">Odds of head when flipping a fair coin is 1:1</span></div>
+<ul>
+<li><div style="background-color:#a3be8c;">
+<span style="color: #2e3440; ">Compared to 50% probability (Odds # Probs)</span></div>
+</li></ul>
+</li><li><div style="background-color:#ebcb8b;">
+<span style="color: #3b4252; font-size: 14pt; ">Odds Ratio</span></div>
+<ul>
+<li><div style="background-color:#a3be8c;">
+<span style="color: #2e3440; ">Ratio of 2 odds</span></div>
+<ul>
+<li><div style="background-color:#b48ead;">
+<span style="color: #2e3440; font-size: 15pt; font-weight: bold; "><img src='data:image/png;base64,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'></span></div>
+<ul>
+<li><div style="background-color:#5e81ac;">
+<span style="color: #e5e9f0; font-size: 11pt; ">Similar to R-squared, see if X is a good predictor for Y, when compared to not(X). Relationship between 2 things</span></div>
+<ul>
+<li><div style="background-color:#81a1c1;">
+<span style="font-size: 10pt; ">
+    <p>
+      Test if the <b>Odds Ratio</b>&nbsp;is statistically significant
+    </p>
+  </span></div>
+<ul>
+<li><div style="background-color:#88c0d0;">
+<span style="font-size: 10pt; ">Chi-squared test</span></div>
+</li><li><div style="background-color:#88c0d0;">
+<span style="font-size: 10pt; ">Fisher's exact test</span></div>
+</li><li><div style="background-color:#88c0d0;">
+<span style="font-size: 10pt; ">Wald Test</span></div>
+</li></ul>
+</li></ul>
+</li><li><div style="background-color:#5e81ac;">
+<span style="color: #e5e9f0; font-size: 11pt; ">Example from Youtube</span></div>
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+</body>
+</html>

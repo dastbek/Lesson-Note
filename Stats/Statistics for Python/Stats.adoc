@@ -1,0 +1,40 @@
+= Stats Basics
+
+
+== Tests
+
+
+=== Chi-squared test
+
+
+==== Purpose
+
+
+== Odds
+
+
+=== \latex \frac{Happening}{Not \; Happening}
+
+=== Odds of head when flipping a fair coin is 1:1
+
+
+==== Compared to 50% probability (Odds # Probs)
+
+
+=== Odds Ratio
+
+
+==== Ratio of 2 odds
+
+? \latex \frac{\text{Odds of mutated gene having cancer}}{\text{Odds of unmutated gene having cancer}}
+? Similar to R-squared, see if X is a good predictor for Y, when compared to not(X). Relationship between 2 things
+
+? Test if theOdds Ratio is statistically significant
+? Chi-squared test
+
+? Fisher's exact test
+
+? Wald Test
+
+? Example from Youtube
+
