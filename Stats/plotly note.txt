@@ -1,1 +1,4 @@
 https://community.plotly.com/t/multiple-traces-with-a-single-slider-in-plotly/16356(working with traces group)
+
+"flattening" multi-index in python
+https://stackoverflow.com/questions/14507794/how-to-flatten-a-hierarchical-index-in-columns
